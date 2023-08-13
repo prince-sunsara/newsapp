@@ -49,7 +49,7 @@ const News = (props) => {
 
         return (
             <div style={{marginTop:"80px"}}>
-                <h1 className='text-center'>LoveNews - Top {capitalizeFirstLetter(props.category)} Headlines</h1>
+                <h1 className='text-center'>WordlyPI - Top {capitalizeFirstLetter(props.category)} Headlines</h1>
                 {loading && <Spinner />}
                 <InfiniteScroll
                     dataLength={articles.length}

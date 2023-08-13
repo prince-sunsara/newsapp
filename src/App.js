@@ -12,7 +12,7 @@ const App = () => {
   const [progress, setProgress] = useState(0)
 
   const handleProgress = (progress) => {
-    setProgress(progress)
+    setProgress(progress);
   }
 
     return (
