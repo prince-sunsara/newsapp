@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 
 export class Error extends Component {
+    constructor(props){
+        super(props);
+        document.title = "Error! Page doesn' exist"
+    }
+
     render() {
     let errBox = {
         padding: '20px',
